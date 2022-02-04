@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="210.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.player.controller.Controller_about" stylesheets="main.css">
+   <children>
+      <Button styleClass="button" fx:id="okButton" layoutX="446.0" layoutY="170.0" mnemonicParsing="false" onMouseClicked="#exit" text="确定" />
+      <TextArea layoutX="33.0" styleClass="label" layoutY="22.0" prefHeight="113.0" prefWidth="480.0" text="原作者:JiaDIng(jiading.biz@outlook.com)&#10;原项目:https://github.com/JiaDingCN/JavaMediaPlayer&#10;(forked by:https://github.com/Al-assad/Simple-Media-Player)&#10;修改者:王浩宇(2020900795@chd.edu.cn)&#10;项目使用JavaFX8编写">
+         <font>
+            <Font name="Ubuntu" size="15.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
